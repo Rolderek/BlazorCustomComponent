@@ -4,5 +4,6 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
-builder.RootComponents.RegisterCustomElement<Counter>("my-blazor-counter"); //beregisztráltam a custom elementemet
+//beregisztráltam a custom elementemet:
+builder.RootComponents.RegisterCustomElement<Counter>("my-counter"); 
 await builder.Build().RunAsync();

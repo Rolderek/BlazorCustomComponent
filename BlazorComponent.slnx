@@ -1,3 +1,8 @@
 <Solution>
   <Project Path="BlazorComponent/BlazorComponent.csproj" />
+  <Project Path="CustomElementsServer/CustomElementsServer.csproj" />
+  <Project Path="HtmlProject/HtmlProject.csproj" />
+  <Project Path="MVCDemo/MVCDemo.csproj">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
 </Solution>
